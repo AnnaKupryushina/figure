@@ -1,0 +1,104 @@
+.wrap{
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    
+    
+    
+}
+
+.big-square{
+    position:relative ;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    background:#00a3ff;
+    z-index: 10;
+   
+}
+.big-square:hover{
+    background: #ADFF2F;
+    z-index: 20 ;
+   
+    
+}
+.small-square{
+    position:absolute ;
+    top: 37.5%;
+    left:37.5%;
+
+    width: 25%;
+    height: 25%;
+    background:wheat ;
+    border-radius: 10%;
+    z-index: 15;
+    
+}
+.circle-left{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    
+    height: 25%;
+    width: 25%;
+    background: #ef1d04;
+    border-radius: 50%;
+   
+    
+   
+}
+.circle-left:hover{
+    z-index: 20;
+    background-color:	#FF00FF;
+}
+.circle-right{
+    position: absolute;
+    top: 15%;
+    right: 15%;
+   
+    height: 25%;
+    width: 25%;
+    background:#ef1d04;
+    border-radius: 50%;
+    z-index: 5;
+}
+.circle-right:hover{
+    z-index: 20;
+    background-color:	#FF8C00;
+}
+
+
+.circle-bottomleft{
+    position: absolute;
+    top: 65%;
+    left: 15%;
+
+    height: 25%;
+    width: 25%;
+    background:#ef1d04;
+    border-radius: 50%;
+    z-index: 5;
+}
+.circle-bottomleft:hover{
+    z-index: 20;
+    background-color:	#FF69B4;
+}
+
+
+.circle-bottomright{
+    position: absolute;
+    top: 65%;
+   right: 15%;
+
+    height: 25%;
+    width: 25%;
+    background:#ef1d04;
+    border-radius: 50%;
+    z-index: 5;
+}
+.circle-bottomright:hover{
+    z-index: 20;
+    background-color:	#FA8072;
+}
